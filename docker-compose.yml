@@ -23,3 +23,5 @@ services:
             - "16543:80"
         depends_on: 
             - postgres
+# run ifconfig | grep inet
+# to get your hostname for pgadmin when connecting to your db
